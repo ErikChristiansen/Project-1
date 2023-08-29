@@ -1,0 +1,47 @@
+body,html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F3DEBA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(103, 93, 80, 0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    height: 125px;
+}
+
+.header-image {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+.header-text {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.header-text2 {
+    box-sizing: inline-block;
+}
+
+.homepage-headings {
+font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;
+}
+
+#list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;
+    
+}
